@@ -58,6 +58,8 @@ ol li{
     
 }
 
+
+
 .container{
     flex: 1;
     margin: 0 auto;
@@ -88,14 +90,9 @@ h6{
      font-style: italic;
 }
 
-.hero{
-    height: 500px;
-    background-image: url(/optidental.png);
-    background-size: 1070px 450px;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 0cm;
-}
+
+
+
 
 section div h1{
     color:white;
@@ -257,3 +254,37 @@ margin-left:  15cm;
 .footer{
     background-color: rgb(59, 184, 126);
 }
+
+.imgprincipal{
+    position: absolute;
+    top: 30px;
+    left: 46px;
+    font-size: 18px;
+}
+
+.text-principal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align-last: left;
+    
+}
+
+.containerz {
+    position: relative;
+  
+  }
+  
+  .topleftz {
+    position: absolute;
+    top: 8px;
+    left: 96px;
+    font-size: 18px;
+  }
+  
+  .imgsrc { 
+    width: 75%;
+    height: 500px;
+    margin-left: 4cm;
+    
+  }
+
