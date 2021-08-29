@@ -90,7 +90,7 @@ h6{
 
 .hero{
     height: 500px;
-    background-image: url(images/optidental.png);
+    background-image: url(/images/optidental.png);
     background-size: 1070px 450px;
     background-repeat: no-repeat;
     background-position-x: center;
