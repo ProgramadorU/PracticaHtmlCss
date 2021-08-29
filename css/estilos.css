@@ -1,0 +1,259 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*MENU*/
+header{
+    background: rgba(149, 143, 144, 0.692);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.header a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.menu{
+    height: inherit;
+   
+}
+ 
+.header ol{
+    display: flex;
+    height: inherit;
+    
+    
+}
+
+.header ol li{
+    height: inherit;
+    
+  
+}
+
+ol{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+   
+    
+}
+
+ol li{
+    padding-right: 1cm;
+
+    
+    
+}
+
+.container{
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    
+}
+
+.link{
+    font-size: 22px;
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+    font-size: 50px;
+    padding-left: 12%;
+    padding-top: 0%;
+}
+
+h6{
+     font-family: 'Fjalla One', sans-serif;
+     font-weight: normal;
+     font-style: italic;
+}
+
+.hero{
+    height: 500px;
+    background-image: url(/images/optidental.png);
+    background-size: 1070px 450px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0cm;
+}
+
+section div h1{
+    color:white;
+    letter-spacing: -.2px;
+    font-size: 42px;
+    padding-top: 3cm;  
+    
+}
+
+.container h1{
+    margin-top: 0%;
+}
+
+section{
+ padding-top: 0%;
+}
+
+h1 strong{
+    color: rgb(23, 6, 173);
+}
+
+.h2-tratamiento{
+    color: rgb(38, 35, 216);
+    padding-left: 0.3cm;
+    margin-top: 0cm;
+    font-size: 30px;
+    flex:inherit;
+}
+
+.proyectos{
+    border: 1.5px solid gray;
+    border-radius: 20px ;
+    padding-bottom: 1cm;
+    margin-bottom: 1cm;
+    width: 70%;
+    background-color: rgba(228, 111, 111, 0.198);
+    
+}
+
+.tratamientos{
+   padding-left: 8cm;
+   width: 75%;
+
+}
+
+.proyecto-descripcion{
+    position: flex;
+    padding-left: 1cm;
+ }
+
+.proyecto-fecha{
+    text-align-last: center;
+    
+   
+}
+
+.proyecto-title{
+    text-align-last: center;
+}
+
+
+.procedimientos-url{
+    border: 2px solid rgb(11, 76, 195) ;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(11, 76, 195);
+    font-size: 30px;
+    padding: 6px;
+    
+}
+
+.procedimientos-url:hover{
+    background-color: rgb(39, 140, 180);
+    color: black;
+}
+
+.proyecto-imagenContainer{
+    padding-left: 1.2cm;
+   
+}
+
+.nostros-list-title{
+    color: rgb(38, 35, 216);
+    font-size: 30px;
+    padding-left: 7.8cm;
+}
+
+.nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.procedimientos{
+    border: 2px solid green;
+    padding-bottom: 1cm;
+    margin-bottom: 1cm;
+    border-radius: 10px;
+    background-color: rgba(190, 216, 231, 0.26);
+    text-align-last: center;
+    
+  
+}
+
+
+.procedimientos-imagen{
+    width: 150px;
+    height: 150px;
+    padding-top: 1cm;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    justify-content: flex-start;
+}
+
+.proyecto-title{
+    font-size: 30px;
+}
+
+.h3-title{
+    color: rgb(38, 35, 216);
+    font-size: 30px;
+   text-align-last: center;
+}
+
+.footer-1{
+    color: rgb(17, 16, 44);
+    font-size: 25px;
+    padding-left: 13.5cm;
+}
+
+.footer-2{
+    color: rgb(17, 16, 44);
+    font-size: 25px;
+    padding-left: 13.2cm;
+}
+
+.form-input{
+ padding: 10px;
+ background-color: rgba(140, 222, 224, 0.781);
+ color: black;
+ border-radius: 4.5px;
+margin-left:  15cm;
+ 
+}
+
+.form-button{
+    background-color: rgb(218, 80, 45);
+    font-size: 25px;
+    margin-left: 16cm;
+    margin-top: 0.5cm;
+    cursor:pointer;
+}
+
+.form-button:hover{
+    background-color: rgb(23, 223, 23);
+}
+
+.footer{
+    background-color: rgb(59, 184, 126);
+}
