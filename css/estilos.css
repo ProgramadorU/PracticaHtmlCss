@@ -185,7 +185,7 @@ h1 strong{
 
 .nostros-list-title{
     color: rgb(38, 35, 216);
-    font-size: 30px;
+    font-size: 40px;
     padding-left: 7.8cm;
 }
 
@@ -309,6 +309,9 @@ margin-left:  15cm;
     
 }
 
+.ad{
+    margin-bottom: 5cm;
+}
 
 
 
